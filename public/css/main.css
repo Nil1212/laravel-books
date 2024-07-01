@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Battambang", system-ui;
+}
+.container {
+    align-items: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1296px) {
+    .genre ul li {
+        width: 100%;
+        min-width: 360;
+        height: 260px;
+    }
+    .genre ul li a {
+        margin: 0;
+        width: 100%;
+    }
+    .item-detail h4 {
+        letter-spacing: 1.5px;
+        color: rgb(33, 33, 33);
+        transition: color 0.2s;
+        margin: 0 !important;
+    }
+    .item-detail p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .first-title-content h2 {
+        font-size: 35px;
+    }
+    .new-arrival-book .item-img img {
+        min-width: 200px;
+    }
+}
+@media screen and (min-width: 440px ) {
+    .main-header .logo img {
+        max-width: 60px;
+    }
+}

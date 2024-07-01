@@ -1,0 +1,150 @@
+* {
+    font-family: "Battambang", system-ui;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* !-------------------------------------------Book-Detail------------------------------ */
+.Detail-Item {
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.img-detail {
+    width: 30%;
+    padding: 0 40px;
+}
+.img-detail img {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    border-radius: 20px;
+}
+.book-detail {
+    width: 40%;
+    font-family: "Battambang", system-ui;
+    border-left: 1px solid rgb(152, 152, 152);
+    text-align: start;
+}
+.book-description {
+    padding-left: 30px;
+}
+.book-description h3 {
+    color: #3f3f3f;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.book-description h3 span {
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: "Battambang", system-ui;
+}
+.comment {
+    width: 37%;
+    border-left: 0.5px solid rgb(152, 152, 152);
+    padding-left: 10px;
+}
+.head-comment {
+    display: flex;
+    justify-content: space-between;
+}
+.description {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+.description h4 {
+    text-decoration: underline;
+}
+.detail-description {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    /* margin: 0 20px; */
+    padding-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 0.5px solid rgb(179, 179, 179);
+}
+.detail-description p {
+    width: 60%;
+    text-align: start;
+}
+
+/* !--------------------------------------------Other-books---------------------------------------- */
+.others-books {
+    text-align: start;
+    padding: 30px 20px;
+}
+.others-books h3 {
+    margin: 0 60px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+.others {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.others ul {
+    display: grid;
+    overflow-y: scroll;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.others ul li {
+    width: 100%;
+    height: 100%;
+}
+.a-other-book {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.a-other-book img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 12px 12px;
+}
+.book-title-detail {
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    background-color: rgba(50, 50, 50, 0.63);
+    border-radius: 0 0 10px 10px;
+}
+.book-title-detail p {
+    font-size: 1.3rem;
+    color: #f9a340;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

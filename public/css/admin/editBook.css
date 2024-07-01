@@ -1,0 +1,127 @@
+/* !------------------Form-------------------------- */
+.editBook  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 550px;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    outline: 1px solid rgba(157, 157, 157, 0.521);
+    border-radius: 20px;
+}
+.form-active {
+    display: block;
+}
+.editBook::-webkit-scrollbar {
+    display: none;
+}
+.editBook {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.standalone {
+    margin-bottom: 24px;
+}
+
+.standalone label {
+    width: 240px;
+}
+.standalone label img {
+    cursor: pointer;
+}
+.standalone {
+    margin-bottom: 24px;
+  }
+
+  .standalone label {
+    width: 240px;
+  }
+
+  .standalone label img {
+    cursor: pointer;
+  }
+
+  .standalone img {
+    width: 240px;
+    border-radius: 12px;
+  }
+.editBook .grid-container {
+    width: 100%;
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 24px;
+}
+
+.editBook .grid-container div {
+    width: 100%;
+}
+.editBook .grid-container div label {
+    margin-left: 10px;
+}
+.editBook button {
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #fa9a41;
+}
+.editBook .grid-container div input,
+.editBook .grid-container div textarea, select {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 10px;
+}
+.editBook .grid-container div input::placeholder,
+textarea::placeholder {
+    color: #fa9a41;
+}
+#img {
+    display: none;
+}
+.alert {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* !---------------------------Select Form ----------------------------------*/
+select {
+    color: #fa9a41;
+}
+/* !--------Delete Alert -------------- */
+#confirmDelete,#cancelDelete {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#confirmDelete {
+    background-color: rgb(255, 56, 56);
+}

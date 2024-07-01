@@ -1,0 +1,120 @@
+/* !--------------------------------------Third-Content--------------------------- */
+.third-content {
+    width: 90%;
+}
+.new-arrival {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.new-arrival h2 {
+    width: 80%;
+}
+.new-arrival h2::after {
+    content: "";
+    display: flex;
+    width: 60%;
+    left: 220px;
+    height: 2px;
+    background: #d4d8dd;
+    right: 168px;
+    border-radius: 5px;
+    top: 50%;
+    position: absolute;
+}
+.new-arrival .btn-hover {
+    margin-top: 3rem;
+    display: flex;
+    gap: 10px;
+    bottom: 3rem;
+    margin: 0;
+    outline: none;
+    border: none;
+    align-items: center;
+    background-color: #fa9a41;
+    padding: 7px;
+    transition: ease-in-out 0.2s;
+    border-radius: 50px;
+}
+.new-arrival .btn-hover a {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.new-arrival .btn-hover p {
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+.new-arrival .btn-hover:hover {
+    background-color: white;
+    box-shadow: 0px 4px 7px rgb(232, 232, 232);
+}
+.new-arrival .btn-hover:hover p {
+    color: black;
+}
+.new-arrival .btn-hover div {
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.new-arrival .btn-hover div img {
+    width: 25px;
+    height: 25px;
+}
+.new-arrival .btn-hover p {
+    color: white;
+    font-family: "Freehand", cursive;
+    margin-right: 0.8rem;
+}
+.new-arrival-book ul {
+    display: grid;
+    overflow: hidden;
+    height: 500px;
+    padding: 10px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.new-arrival-book ul li {
+    list-style-type: none; /* Remove default bullets */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content of each list item */
+    justify-content: center;
+}
+
+.new-arrival-book ul li a {
+    text-align: center; /* Center the content of the links */
+    display: block; /* Ensure that the anchor tags are block-level elements */
+}
+
+.new-arrival-book .item-img img {
+    display: block;
+    margin: 0 auto;
+    height: 270px;
+}
+
+.new-arrival-book ul::-webkit-scrollbar {
+    display: none;
+}
+.new-arrival-book ul li a .item-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-arrival-book ul li a div > img {
+    display: block;
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+}

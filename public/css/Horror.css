@@ -1,0 +1,93 @@
+
+/* !-----------------------------------Horror-Content--------------------- */
+.genre-horror {
+    width: 100%;
+    background-image: url("../images/horror-banner.png");
+    padding: 50px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #d4d8dd;
+    height: 360px;
+    display: flex;
+}
+.genre-knowledge {
+    background-image: url("../images/knowledge-banner.jpg");
+}
+.genre-technology {
+    background-image: url("../images/technology-banner.png");
+}
+.horror-left-content {
+    width: 50%;
+}
+.horror-left-content .horror-type {
+    color: #fa9a41;
+}
+.horror-left-content h2 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family: "Freehand", cursive;
+}
+.horror-left-content .genre-des {
+    font-size: 14px;
+    font-family: "Freehand", cursive;
+    margin-bottom: 20px;
+}
+.horror-left-content .btn-hover {
+    margin-top: 3rem;
+    display: flex;
+    gap: 10px;
+    bottom: 3rem;
+    margin: 0;
+    outline: none;
+    border: none;
+    align-items: center;
+    background-color: #fa9a41;
+    padding: 7px;
+    transition: ease-in-out 0.2s;
+    border-radius: 50px;
+}
+.horror-left-content .btn-hover p {
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+.horror-left-content .btn-hover:hover {
+    background-color: white;
+}
+.horror-left-content .btn-hover:hover p {
+    color: black;
+}
+.horror-left-content .btn-hover div {
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.horror-left-content .btn-hover div img {
+    width: 25px;
+    height: 25px;
+}
+.horror-left-content .btn-hover p {
+    color: white;
+    font-family: "Freehand", cursive;
+    margin-right: 0.8rem;
+}
+.horror-right-content {
+    width: 50%;
+}
+.horror-right-content .horror-img {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.horror-img img {
+    width: 30%;
+    /* height: 260px; */
+    border-radius: 20px;
+    object-fit: cover;
+}
